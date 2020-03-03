@@ -1,0 +1,8 @@
+$si-typography: si-typography;
+
+.#{$si-typography} {
+    &__h1 {
+        @include typography(22px, 600, #000);
+        letter-spacing: 1px;
+    }
+}

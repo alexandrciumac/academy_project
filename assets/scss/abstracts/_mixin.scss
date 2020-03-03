@@ -1,0 +1,18 @@
+@mixin typography($font-size, $font-weight, $color) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+}
+
+//Box shadow
+@mixin box-shadow($horizontal, $vertical, $radius, $spread, $color, $inset: false) {
+	@if $inset {
+		-webkit-box-shadow: $horizontal $vertical $radius $spread $color;
+		-moz-box-shadow: $horizontal $vertical $radius $spread $color;
+		box-shadow: $horizontal $vertical $radius $spread $color;
+	} @else {
+		-webkit-box-shadow: $horizontal $vertical $radius $spread $color;
+		-moz-box-shadow: $horizontal $vertical $radius $spread $color;
+		box-shadow: $horizontal $vertical $radius $spread $color;
+	}
+}

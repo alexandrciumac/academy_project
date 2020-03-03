@@ -1,0 +1,24 @@
+@charset 'utf-8';
+
+//Vendor
+@import "./vendor/vendor-dir";
+
+//Abstracts
+@import "./abstracts/abstracts-dir";
+
+//Components
+@import "./components/components-dir";
+
+//Layouts
+@import "./layouts/layouts-dir";
+
+//Base
+@import "./base/base-dir.scss";
+
+body {
+    background-color: #f8f8f8;
+}
+
+.box {
+    background-color: rgba(1, 255, 1, 0.411);
+}
